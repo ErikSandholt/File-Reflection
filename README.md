@@ -3,26 +3,28 @@ This project uses Clang to reflect files and generate code to set up reflection 
 
 Macros 
 
-#define REFLECT_CLASS
+### #define REFLECT_CLASS
 
 Tell the reflector to reflect this class. Atm the reflector reflects all classes it finds.
 
-#define REFLECT_FUNCTION
+### #define REFLECT_FUNCTION
 
 Tell the reflector to reflect this function. Atm the reflector reflects all public functions.
 
-#define REFLECT_VARIABLE
+### #define REFLECT_VARIABLE
 
 Tell the reflector to reflect this variable. Atm the reflector reflects all public variables.
 
-#define REFLECT_EXCLUDE_INVOKER
+### #define REFLECT_EXCLUDE_INVOKER
 
 To save memory by defining this, Invoke won't be included inside ReflectionVariable and ReflectionFunctions.
 
 
-Reflection
+## Reflection
+
 Uses Clang to reflect files and Generate reflection data with Shared Reflection Data.
 
-Shared_Reflection_Data
+## Shared_Reflection_Data
+
 Contains code for Reflection data.
 
