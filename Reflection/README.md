@@ -17,6 +17,6 @@ The data is stored inside the reflector.
 
 ## 3. Generate code
 
-a "ReflectComponentData.cpp" will be generated that defines the function "InitReflection". Inside all the generated code will be created. 
+A "ReflectComponentData.cpp" will be generated that defines the function "InitReflection". Inside all the generated code will be created. 
 
-See "ReflectComponentData.cpp" for an example
+#### See "ReflectComponentData.cpp" for an example
