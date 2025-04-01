@@ -28,3 +28,10 @@ Uses Clang to reflect files and Generate reflection data with Shared Reflection 
 
 Contains code for Reflection data.
 
+# Improvements
+
+## Main takes in Arguments
+
+## Reflect Code to constexpr
+
+## Variable and Functions to pointers
